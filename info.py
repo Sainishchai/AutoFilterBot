@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '28394784'))
 API_HASH = environ.get('API_HASH', '9544a3ad7d8660acbae0dcf553c808e5')
-BOT_TOKEN = environ.get('BOT_TOKEN', '5847064573:AAGC0OerM5XtAjKjQ1JLy0jAKrkDcM3osI4')
+BOT_TOKEN = environ.get('BOT_TOKEN', '5877942822:AAHNf46r8fFlnlmzbjdjfihuSIYK4UMdOmk')
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -42,9 +42,9 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://test:test1@cluster1.nbibzo5.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster1")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Test_files')
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://klaus:klausbot@cluster0.w1hv2ov.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
